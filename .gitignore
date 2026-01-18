@@ -1,24 +1,51 @@
-# Ignore Firebase folder
-firebase/
-
-# Node modules
+# =====================
+# Node.js
+# =====================
 node_modules/
+.env
+.env*
 
-# Flutter/Dart
+# =====================
+# Flutter / Dart
+# =====================
 .dart_tool/
 .packages
 build/
-*.iml
+pubspec.lock
 
+# Flutter generated files
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# =====================
+# Firebase
+# =====================
+firebase/
+
+# =====================
 # IDE
+# =====================
 .idea/
 .vscode/
+*.iml
 *.swp
 *.swo
 
+# =====================
 # OS
+# =====================
 .DS_Store
 Thumbs.db
 
-# Env files
-.env
+# =====================
+# Dart / Web build artifacts
+# =====================
+doc/api/
+
+# Avoid committing generated Javascript files
+*.dart.js
+*.info.json
+*.js
+*.js_
+*.js.deps
+*.js.map
